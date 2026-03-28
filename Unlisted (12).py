@@ -1,0 +1,8 @@
+f=open("c.txt","w")
+f.write("Hello World1\n")
+f.write("Hello World2\n")
+f.write("Hello World3\n")
+f.close()
+f=open("c.txt","r")
+content=f.read()
+print(content)
